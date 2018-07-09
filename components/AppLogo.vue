@@ -14,8 +14,8 @@
   transform: rotateX(180deg);
   position: relative;
   overflow: hidden;
-  height: 180px;
-  width: 245px;
+  height: 72px;
+  width: 98px;
 }
 
 .Triangle {
@@ -27,36 +27,36 @@
 }
 
 .Triangle--one {
-  border-left: 105px solid transparent;
-  border-right: 105px solid transparent;
-  border-bottom: 180px solid #41B883;
+  border-left: 42px solid transparent;
+  border-right: 42px solid transparent;
+  border-bottom: 72px solid #41B883;
 }
 
 .Triangle--two {
-  top: 30px;
-  left: 35px;
+  top: 12px;
+  left: 14px;
   animation: goright 0.5s linear forwards 3.5s;
-  border-left: 87.5px solid transparent;
-  border-right: 87.5px solid transparent;
-  border-bottom: 150px solid #3B8070;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 60px solid #3B8070;
 }
 
 .Triangle--three {
-  top: 60px;
-  left: 35px;
+  top: 24px;
+  left: 14px;
   animation: goright 0.5s linear forwards 3.5s;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-bottom: 120px solid #35495E;
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+  border-bottom: 48px solid #35495E;
 }
 
 .Triangle--four {
-  top: 120px;
-  left: 70px;
+  top: 48px;
+  left: 28px;
   animation: godown 0.5s linear forwards 3s;
-  border-left: 35px solid transparent;
-  border-right: 35px solid transparent;
-  border-bottom: 60px solid #fff;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 24px solid #fff;
 }
 
 @keyframes turn {
@@ -67,13 +67,13 @@
 
 @keyframes godown {
   100% {
-    top: 180px;
+    top: 72px;
   }
 }
 
 @keyframes goright {
   100% {
-    left: 70px;
+    left: 28px;
   }
 }
 </style>
