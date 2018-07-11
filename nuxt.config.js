@@ -18,6 +18,12 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** Styles that apply to all routes
+  */
+  css: [
+    'assets/main.css'
+  ],
+  /*
   ** Build configuration
   */
   build: {
